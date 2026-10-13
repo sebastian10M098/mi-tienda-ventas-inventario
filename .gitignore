@@ -1,0 +1,13 @@
+.vs/
+**/bin/
+**/obj/
+*.user
+*.suo
+
+# Contiene la contraseña de MySQL: no la subas a un repo público.
+# Deja appsettings.example.json como plantilla en su lugar.
+appsettings.json
+
+# Catálogo generado desde archivos Excel locales; puede contener precios y stock privado.
+database/importar_catalogo_actual.sql
+database/import_inventario_prueba.sql
